@@ -79,8 +79,8 @@ if ( ! class_exists( 'Wordpress_Top_Bar' ) ) {
 
         public function setup_menu () {
             add_management_page(
-                __( 'Plugin Settings Title here...', WPTB_TEXTDOMAIN ),
-                __( 'Plugin Settings Title here...', WPTB_TEXTDOMAIN ),
+                __( 'Top Bar Content', WPTB_TEXTDOMAIN ),
+                __( 'Top Bar Content', WPTB_TEXTDOMAIN ),
                 'manage_options',
                 WPTB_PREFIX . '_settings_page',
                 array( $this, 'admin_panel_page' )
