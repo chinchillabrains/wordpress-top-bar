@@ -51,7 +51,7 @@ if ( ! class_exists( 'Wordpress_Top_Bar' ) ) {
             ?>
                 <div id="wptb-bar" class="wptb-bar">
                     <div class="wptb-bar__inner">
-                        <?= $bar_content ?>
+                        <?= do_shortcode( $bar_content ) ?>
                     </div>
                 </div>
             <?php
